@@ -16,6 +16,12 @@
  * 
  * Please feel free to fork and improve this script, extend it's functionality, as well as adapt for different scripting languages
  * 
+ * CHANGELOG
+ * ----------------------
+ * Date: 2013-06-14 
+ * Contributor: Tawanda Kembo (use tkembo@gmail.com for suggestions / comments
+ * Contribution: Added support link support. Now you can add a link to your biNu app using the format: $binu_app->* * * add_link($url,$string,$style,$align,$x_pos,$y_pos,$mode); 
+ *
  */
 class biNu_app {
     /*
