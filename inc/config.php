@@ -1,10 +1,9 @@
 <?php
+	$hostname_binu_devilsdictionary = getenv('DB_HOST');
+	$database_binu_devilsdictionary = getenv('DB_NAME');
+	$username_binu_devilsdictionary = getenv('DB_USER');
+	$password_binu_devilsdictionary = getenv('DB_PASS');
 	
-	$hostname_binu_murphyslaws = getenv('DB_HOST');
-	$database_binu_murphyslaws = getenv('DB_NAME');
-	$username_binu_murphyslaws = getenv('DB_USER');
-	$password_binu_murphyslaws = getenv('DB_PASS');
-	
-	$binu_murphyslaws = mysql_pconnect($hostname_binu_murphyslaws, $username_binu_murphyslaws, $password_binu_murphyslaws) or trigger_error(mysql_error(),E_USER_ERROR); 
+	$binu_devilsdictionary = mysql_pconnect($hostname_binu_devilsdictionary, $username_binu_devilsdictionary, $password_binu_devilsdictionary) or trigger_error(mysql_error(),E_USER_ERROR); 
 	
 ?>

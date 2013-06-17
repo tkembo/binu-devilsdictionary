@@ -53,7 +53,7 @@
 		$binu_app->add_text($row_featuredWordsRecordset['word']." - ".$row_featuredWordsRecordset['definition'],'body_text');
 		
 		$binu_app->add_text("",'body_text');	
-		$binu_app->add_text("Click on a letter below to browse by letter",'body_text');
+		$binu_app->add_text("Click on a letter below to browse by letter:",'body_text');
 	 
 		$binu_app->add_link("letter.php?letter=a&amp;pageNum_wordsRecordset=0" , "A", "intro");
 		$binu_app->add_link("letter.php?letter=b&amp;pageNum_wordsRecordset=0" , "B", "intro");
